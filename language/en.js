@@ -46,12 +46,16 @@ var Translations = {
    * If the CTA buttons are not required then remove the content from the variable - "CtaButtonSettings": {};
    */
   CtaButtonSettings: {
-        "button1": {
-            "card": "b421402e",
-            "label": "Schedule a Conversation",
-            "icon": "contact"
-        }
-	  
+    button1: {
+      card: 'b421402e',
+      label: 'Schedule a Conversation',
+      icon: 'contact'
+    },
+    button2: {
+      card: '8f89373e',
+      label: 'Share',
+      icon: 'share'
+    }
   },
 
   /**
@@ -88,7 +92,7 @@ var Translations = {
         }
       ]
     },
-	{
+    {
       label: 'Main Webinar',
       states: [
         {
@@ -97,7 +101,7 @@ var Translations = {
         }
       ]
     },
-	{
+    {
       label: 'Q&amp;A',
       states: [
         {
